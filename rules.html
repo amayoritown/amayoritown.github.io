@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Rules</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- Favicons -->
+  <link href="https://img.icons8.com/color/48/000000/bookmark--v2.png" rel="icon">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>Comment Policy</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Main Site</a></li>
+      <li><a href="#">Discord</a></li>
+      <li><a href="#">Disqus appeal</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Guidelines</h1>
+    <div>
+    <p>Welcome to Amayori's Town, one of the leading tech blogs and community focused entirely on Minecraft and NBT. We try our best to make sure that the discussions on our articles are the troll, spam and abuse free but we’re not omnipresent. The comment section can be a great place for interaction with readers, writers and even for spawning stimulating conversation – it can be a great place for all of us! To ensure that you have a good time over here at MSPU, please make sure to stick to the following guidelines:</p>
+    <p>Guidlines Below.</p>
+    <ul>
+      <li>Be polite – don’t be rude to anyone and respect others. If something you would say would get you bottled on the head offline, please don’t say it here. Remember there is a person behind the screen and that your words affect people.</li>
+      <li>Don’t troll. We appreciate and welcome criticism towards writers here, but comments that add no value to the discussion or that are merely insulting would be deleted without exception.</li>
+      <li>Spam? Goodbye. We understand that you may make thousands of dollars working from home, however, we are not interested. Please refrain from posting or we’ll give you a hand and show both you and your post the door.</li>
+    </ul>
+    </div>
+  </article>
+</section>
+<footer>
+  <p>Copyright &copy amayori Town 2022</p>
+</footer>
+
+</body>
+</html>
